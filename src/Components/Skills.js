@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  FiServer, FiStar, FiUsers } from 'react-icons/fi';
+import { FiCode, FiServer, FiStar } from 'react-icons/fi'; // FiCode yahan add kiya hai
 import { SiHtml5, SiCss, SiJavascript, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiMongodb, SiGit, SiFigma } from 'react-icons/si';
 import { FaFileExcel } from 'react-icons/fa';
 import './Skills.css';

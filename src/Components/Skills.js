@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FiCode, FiServer, FiStar, FiUsers } from 'react-icons/fi';
-import { SiHtml5, SiCss, SiJavascript, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiMongodb, SiGit, SiGithub, SiFigma } from 'react-icons/si';
+import {  FiServer, FiStar, FiUsers } from 'react-icons/fi';
+import { SiHtml5, SiCss, SiJavascript, SiReact, SiBootstrap, SiTailwindcss, SiNodedotjs, SiMongodb, SiGit, SiFigma } from 'react-icons/si';
 import { FaFileExcel } from 'react-icons/fa';
 import './Skills.css';
 

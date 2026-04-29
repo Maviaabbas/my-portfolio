@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #020617;
+  padding: 5px 0; /* Padding kam ki taake bada logo fit ho jaye */
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #1e293b;
+}
+
+.navbar--scrolled {
+  background-color: rgba(2, 6, 23, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Logo Styling - Size Increased */
+.brand-logo {
+  height: 65px;      /* Aapki demand ke mutabiq bada logo */
+  width: auto;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.05);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-right: 0;
+}
+
+/* Links Styling */
+.nav-link {
+  font-weight: 500;
+  color: #f8fafc !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #3b82f6 !important;
+}
+
+/* Navbar Nav adjustments for larger logo */
+.navbar-nav {
+  align-items: center;
+}
+
+/* Mobile Menu Fix */
+.navbar-toggler {
+  border: 1px solid #3b82f6;
+}
+
+.collapse.show {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 991px) {
+  .brand-logo {
+    height: 50px; /* Mobile par logo thoda chhota rakhna behtar rehta hai */
+  }
+}

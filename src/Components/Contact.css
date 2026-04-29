@@ -1,0 +1,16 @@
+#contact {
+  background-color: #020617;
+}
+
+.form-control::placeholder {
+  color: #64748b;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25);
+  border: 1px solid #3b82f6 !important;
+}
+
+.card {
+  border-radius: 15px;
+}

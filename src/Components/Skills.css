@@ -1,0 +1,61 @@
+/* --- Premium Dark Theme Variables --- */
+:root {
+  --bg-primary: #020617;      /* Darkest Navy/Grey */
+  --bg-secondary: #0f172a;    /* Slightly lighter grey */
+  --bg-card: #1e293b;        /* Card background */
+  --text-primary: #f8fafc;    /* Off-white */
+  --text-secondary: #94a3b8;  /* Muted grey */
+  --accent: #3b82f6;         /* Bright Blue Accent */
+  --border: #334155;         /* Subtle borders */
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* --- Section Styling --- */
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+/* --- Premium Skill Cards --- */
+.skill-card {
+  background-color: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  color: var(--text-primary);
+}
+
+.skill-card:hover {
+  background-color: #2d3748 !important; /* Lighter shade on hover */
+  border-color: var(--accent) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+}
+
+/* --- Navbar Styling --- */
+.navbar {
+  background-color: rgba(2, 6, 23, 0.95);
+  border-bottom: 1px solid var(--border);
+}
+
+/* --- Typography --- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+.text-primary {
+  color: var(--accent) !important;
+}
+
+/* --- Progress Bar --- */
+.progress {
+  background-color: #334155 !important;
+}

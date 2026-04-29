@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0f172a; /* Premium Dark Grey */
+  color: #e2e8f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar specific dark color */
+nav.navbar {
+  background-color: #020617 !important;
+  border-bottom: 1px solid #334155;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Sections spacing */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Custom hover effect for skills/projects */
+.skill-card:hover {
+  background-color: #334155 !important;
+  border: 1px solid #38bdf8 !important; /* Subtle blue glow */
+  transition: 0.3s;
 }

@@ -1,0 +1,17 @@
+#education {
+  background-color: #020617; /* Darkest Navy */
+}
+
+.edu-card, .cert-card {
+  transition: all 0.3s ease;
+  border-left: 4px solid #3b82f6; /* Blue Accent */
+}
+
+.edu-card:hover, .cert-card:hover {
+  background-color: #1e293b !important;
+  transform: translateX(5px);
+}
+
+h5, h6 {
+  color: #f8fafc;
+}
